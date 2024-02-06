@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- Declaration of the document type as HTML5 -->
+<html lang="en"> <!-- Start of the HTML document with English language -->
+<head>
+    <meta charset="UTF-8"> <!-- Declares the character encoding as UTF-8 for proper text representation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta tag for responsive design on various devices -->
+    <title>Math Operations API</title> <!-- Title of the HTML page displayed in the browser tab -->
+</head>
+<body>
+    <h1>Math Operations API</h1> <!-- Main heading of the page -->
+
+    <!-- Section for calculating the mean -->
+    <h2>Calculate Mean</h2> <!-- Subheading for the mean calculation section -->
+    <form action="/mean" method="get"> <!-- Form element for input and submission -->
+        <label for="nums">Enter numbers (comma-separated): </label> <!-- Label for the input field -->
+        <input type="text" id="nums" name="nums" required> <!-- Input field for entering comma-separated numbers -->
+        <button type="submit">Calculate Mean</button> <!-- Submit button to trigger the mean calculation -->
+    </form>
+    <div id="meanResult"></div> <!-- Placeholder for displaying the mean calculation result -->
+
+    <!-- Section for calculating the median -->
+    <h2>Calculate Median</h2> <!-- Subheading for the median calculation section -->
+    <form action="/median" method="get"> <!-- Form element for input and submission -->
+        <label for="nums">Enter numbers (comma-separated): </label> <!-- Label for the input field -->
+        <input type="text" id="nums" name="nums" required> <!-- Input field for entering comma-separated numbers -->
+        <button type="submit">Calculate Median</button> <!-- Submit button to trigger the median calculation -->
+    </form>
+    <div id="medianResult"></div> <!-- Placeholder for displaying the median calculation result -->
+
+    <!-- Section for calculating the mode -->
+    <h2>Calculate Mode</h2> <!-- Subheading for the mode calculation section -->
+    <form action="/mode" method="get"> <!-- Form element for input and submission -->
+        <label for="nums">Enter numbers (comma-separated): </label> <!-- Label for the input field -->
+        <input type="text" id="nums" name="nums" required> <!-- Input field for entering comma-separated numbers -->
+        <button type="submit">Calculate Mode</button> <!-- Submit button to trigger the mode calculation -->
+    </form>
+    <div id="modeResult"></div> <!-- Placeholder for displaying the mode calculation result -->
+</body>
+</html>
+
